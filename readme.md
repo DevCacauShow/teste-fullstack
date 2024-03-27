@@ -48,7 +48,7 @@ Deve ser desenvolvido uma API em **.NET** com versões igual ou superior à 6 po
 > [!IMPORTANT]
 > Após finalizar o projeto, criar um repositório no github e dar acesso para o e-mail desenvolvimento@cacaushow.com.br
 
-## Boa sorte!
+### Boa sorte
 <!-- 
 > [!NOTE]
 > Useful information that users should know, even when skimming content.
