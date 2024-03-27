@@ -2,6 +2,7 @@
 Neste repositório você irá encontrar o enunciado do teste técnico para vaga de Fullstack Developer da [CacauShow](https://www.cacaushow.com.br/para-sua-empresa/para-sua-empresa.html)!
 Você provavelmente chegou aqui após passar pelas outras etapas do processo seletivo. Se está não for o seu caso e mesmo assim você implementar alguma solução para este exercício ele **não** será avaliado.
 
+> [!NOTE]
 > Você pode usar o problema descrito aqui para exercitar suas habilidades de desenvolvimento, mas a sua solução será avaliada por alguém da Cacau Show apenas se você estiver no processo seletivo da vaga.
 
 
