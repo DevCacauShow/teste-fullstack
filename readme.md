@@ -19,13 +19,14 @@ Deve ser desenvolvido uma aplicação em **Angular** com versões igual ou super
   - Separar as rotas em module
   - Gostariamos de avaliar a sua habilidade com SCSS e semântica HTML, portanto, não utilizar biblioteca para os componentes
   - Utilizar de Pipe para campos com mascaras
-  - Usar proteção de rotas com validação de permissão
+  - Usar Guard Routes com validação de permissão
+  - Em caso de versão acima do 16 utilizar standalone igual a true
 
 ### :bangbang: Back-end
 Deve ser desenvolvido uma API em .NET com versões igual ou superior à 6 podendo utilizar
   - Sql como banco de dados
   - EF Core ou Dapper como ORM
-  - Gravação de log da aplicação no mongodb
+  - Gravação de log da aplicação no mongodb com Serilog
   - Uso do redis em GET de usuário
 
 ### :page_facing_up: Regras de negócio
