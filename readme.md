@@ -12,7 +12,7 @@ O seu objetivo é criar uma aplicação que seja capaz de gerenciar usuários, p
   - E-mail (obrigatório): Incluir validação de formato de e-mail e o mesmo será utilizado posteriormente para login
   - Nível (obrigatório): Podendo ser
     - Admin: Pode se logar, cadastrar, excluir, editar e visualizar usuários
-    - Usuário: Pode se logar e visualizar apenas a tela de listagem, deixando os botões de edição e exclusão ocultos
+    - Usuário: Pode se logar e visualizar apenas a tela de listagem, deixando os botões de edição e exclusão ocultos, e não podendo acessar as telas de cadastro, edição e exclusão
   - Lista de endereço (obrigatório): Podendo ter ao menos um preenchido
     - Ao digitar o CEP, realizar busca no ViaCep ou qualquer outra API de endereço para preenchimento automático dos campos de Cidade, Bairro e Logradouro
 
@@ -33,7 +33,7 @@ Deve ser desenvolvido uma API em **.NET** com versões igual ou superior à 6 po
   - Gravação de log da aplicação no mongodb com Serilog
   - Incluir cache distribuído com redis apenas no endpoint de GET de usuário 
   - Gostariamos de avaliar o seu nível de arquitetura, portanto, fazer separação em camadas seguindo o padrão do DDD
-  - Don't repeat yourself, portanto, utilize classe blases para não repetição de código
+  - Don't repeat yourself, portanto, lembre-se de não repetir código
   - Sql como banco de dados
   - Gerar script SQL para criação de tabelas
 
