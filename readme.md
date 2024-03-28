@@ -24,12 +24,14 @@ Deve ser desenvolvido uma aplicação em **Angular** com versões igual ou super
   
 ### :hash: Back-end
 Deve ser desenvolvido uma API em **.NET** com versões igual ou superior à 6 podendo utilizar
-  - Sql como banco de dados
-  - EF Core ou Dapper como ORM
+  - Além de JWT em endpoints privados (listar, adicionar, atualizar, excluir), incluir x-api-key em todas as requisições
+  - Somente nível admin pode acessar os endpoints de criar, editar e excluir, nível usuário só pode listar
+  - EF Core ou Dapper como ORM/Micro ORM
   - Gravação de log da aplicação no mongodb com Serilog
-  - Uso do redis em GET de usuário
+  - Incluir cache distribuido com redis em GET de usuário
   - Gostariamos de avaliar o seu nível de arquitetura, portanto, fazer separação em camadas seguindo o padrão do DDD
   - Don't repeat yourself, portanto, utilize classe blases para não repetição de código
+  - Sql como banco de dados
   - Gerar script SQL para criação de tabelas
 
 ### :page_facing_up: Regras de negócio
