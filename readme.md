@@ -13,14 +13,17 @@ O seu objetivo é criar uma aplicação que seja capaz de gerenciar usuários, p
   - Nível (obrigatório): Podendo ser
     - Admin: Pode se logar, cadastrar, excluir, editar e visualizar usuários
     - Usuário: Pode se logar e visualizar apenas a tela de listagem, deixando os botões de edição e exclusão ocultos
+  - Lista de endereço (obrigatório): Podendo ter ao menos um preenchido
+    - Ao digitar o CEP, realizar busca no ViaCep ou qualquer outra API de endereço para preenchimento automático dos campos de Cidade, Bairro e Logradouro
 
 ### :globe_with_meridians: Front-end
 Deve ser desenvolvido uma aplicação em **Angular** com versões igual ou superior à 16x podendo
   - Separar rotas em module, em caso de versão superior a 16, utilizar standalone
   - Gostariamos de avaliar a sua habilidade com Scss e semântica HTML, portanto, **NÃO** utilizar biblioteca para os componentes (Bootstrap, material, ...)
-  - Utilizar de Pipe para campos com mascaras, aqui sim podendo utilizar biblioteca para máscaras
+  - Utilizar de Pipe para campos com mascaras ou podendo utilizar biblioteca para máscaras
   - Usar Guard Routes com validação de permissão para os níveis de admin e usuário, em nível de acesso de botão, utilizar diretivas
   - Utilizar de interfaces tipadas
+  - Incluir validação de campos
   
 ### :hash: Back-end
 Deve ser desenvolvido uma API em **.NET** com versões igual ou superior à 6 podendo utilizar
@@ -28,7 +31,7 @@ Deve ser desenvolvido uma API em **.NET** com versões igual ou superior à 6 po
   - Somente nível admin pode acessar os endpoints de criar, editar e excluir, nível usuário só pode listar
   - EF Core ou Dapper como ORM/Micro ORM
   - Gravação de log da aplicação no mongodb com Serilog
-  - Incluir cache distribuido com redis em GET de usuário
+  - Incluir cache distribuído com redis apenas no endpoint de GET de usuário 
   - Gostariamos de avaliar o seu nível de arquitetura, portanto, fazer separação em camadas seguindo o padrão do DDD
   - Don't repeat yourself, portanto, utilize classe blases para não repetição de código
   - Sql como banco de dados
@@ -38,6 +41,7 @@ Deve ser desenvolvido uma API em **.NET** com versões igual ou superior à 6 po
   - Não permitir cadastrar usuário com mesmo E-mail
   - Não permitir nomes com mais de 100 caracteres
   - Não permitir cadastro para menores de 18 anos
+  - Não permitir a inclusão de endereços iguais
 
 ### :heavy_plus_sign: Plus 
 - Instruções no readme
